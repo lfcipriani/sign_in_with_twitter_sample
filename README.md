@@ -37,3 +37,5 @@ This app code is full of comments explaining what's happening in high level and 
 Data persistence is achieved with [Daybreak](http://propublica.github.io/daybreak/) gem and a default `db/signin.db` is used to store tokens and user info.
 
 At frontend side, I tried to keep it simple and just used Twitter bootstrap. All views and layouts are in `views` folder.
+
+I built this app using ruby 2, but it may work in other versions as well. Let me know if you have any problems to use it.
