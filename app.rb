@@ -91,10 +91,10 @@ end
 
 # Protected features
 get '/awesome_features' do
+  @account = ACCOUNT_TO_FOLLOW
   if user_logged.nil?
     erb :forbidden
   else
-    @account = ACCOUNT_TO_FOLLOW
     erb :awesome
   end
 end
@@ -134,7 +134,7 @@ get '/awesome_features/follow' do
     user = JSON.parse(response.body)
     db.close
 
-    @info = JSON.pretty_generate(user_logged)
+    @info = JSON.pretty_generate(user)
     erb :awesome_follow
   end
 end
