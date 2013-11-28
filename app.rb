@@ -11,7 +11,7 @@ require File.expand_path(File.dirname(__FILE__) + '/lib/twitter_sign_in')
 # Constants declarations
 DATABASE = File.expand_path(File.dirname(__FILE__) + '/db/signin.db')
 TWITTER  = File.expand_path(File.dirname(__FILE__) + "/config/twitter_oauth.yml")
-ACCOUNT_TO_FOLLOW = "lfcipriani"
+ACCOUNT_TO_FOLLOW = "twitterapi"
 
 # Configurations
 TwitterSignIn.configure
