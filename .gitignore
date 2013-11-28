@@ -1,0 +1,3 @@
+config/twitter_oauth.yml
+Gemfile.lock
+db/*.db
