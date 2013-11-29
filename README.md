@@ -19,7 +19,7 @@ The requirement is to have ruby and bundler installed.
 2. Clone this repo
 3. Run `bundle install` to install dependencies
 4. Rename `config/twitter_oauth.yml.sample` to `config/twitter_oauth.yml`
-5. Fill `twitter_oauth.yml` with your app consumer key and consumer secret got at step 0
+5. Fill `twitter_oauth.yml` with your app consumer key and consumer secret got at step 1
 6. Optionally, change the var ACCOUNT_TO_FOLLOW in `app.rb` to set what account will be followed
 7. Run `sign_in_start` script
 8. Open http://dev.yoursite.com:4567 in your browser
