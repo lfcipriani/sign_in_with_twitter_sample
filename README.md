@@ -14,7 +14,7 @@ The requirement is to have ruby and bundler installed.
 
 1. Create an app at [dev.twitter.com/apps](https://dev.twitter.com/apps) with:
     * read and write permission
-    * callback set to http://dev.yoursite.com:4567/callback (make sure to add this entry in your `/etc/hosts`)
+    * callback set to http://dev.yoursite.com:4567/callback (add `127.0.0.1   dev.yoursite.com` entry to your local `/etc/hosts`)
     * Sign in with Twitter option checked
 2. Clone this repo
 3. Run `bundle install` to install dependencies
