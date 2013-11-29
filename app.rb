@@ -84,6 +84,7 @@ get '/callback' do
     logger.info "User didn't authorized us"
   end
 
+  @account = ACCOUNT_TO_FOLLOW
   erb :awesome
 end
 
@@ -91,10 +92,10 @@ end
 
 # Protected features
 get '/awesome_features' do
-  @account = ACCOUNT_TO_FOLLOW
   if user_logged.nil?
     erb :forbidden
   else
+    @account = ACCOUNT_TO_FOLLOW
     erb :awesome
   end
 end
