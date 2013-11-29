@@ -39,3 +39,11 @@ Data persistence is achieved with [Daybreak](http://propublica.github.io/daybrea
 At frontend side, I tried to keep it simple and just used Twitter bootstrap. All views and layouts are in `views` folder.
 
 I built this app using ruby 2, but it may work in other versions as well. Let me know if you have any problems to use it.
+
+## References
+
+* Official docs: https://dev.twitter.com/docs/auth/implementing-sign-twitter
+* Cheat-sheet in mind map format: https://www.mindmeister.com/351451507/sign-in-with-twitter
+* Sinatra: http://www.sinatrarb.com/
+* Daybreak: http://propublica.github.io/daybreak
+* Simple oauth gem: https://github.com/laserlemon/simple_oauth
