@@ -47,3 +47,7 @@ I built this app using ruby 2, but it may work in other versions as well. Let me
 * Sinatra: http://www.sinatrarb.com/
 * Daybreak: http://propublica.github.io/daybreak
 * Simple oauth gem: https://github.com/laserlemon/simple_oauth
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/lfcipriani/sign_in_with_twitter_sample/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
